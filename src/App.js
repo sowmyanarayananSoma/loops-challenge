@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, Award, CheckCircle, XCircle, Star } from 'lucide-react';
+import { Play, Award } from 'lucide-react';
 
 const LoopChallenges = () => {
   const [currentChallenge, setCurrentChallenge] = useState(0);
