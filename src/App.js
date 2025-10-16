@@ -189,6 +189,7 @@ for (let i = 0; i < nums.length; i++) {
       const originalLog = console.log;
       console.log = (val) => output.push(String(val));
       
+      // eslint-disable-next-line no-eval
       eval(code);
       
       console.log = originalLog;
